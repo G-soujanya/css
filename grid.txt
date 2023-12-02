@@ -1,0 +1,10 @@
+=>Display Property
+->An HTML element becomes a grid container when its display property is set to grid or inline-grid.
+->The column-gap property sets the gap between the columns
+->The row-gap property sets the gap between the rows
+->The gap property is a shorthand property for the row-gap and the column-gap properties
+->The grid-template-columns property defines the number of columns in your grid layout, and it can define the width of each column.
+->The grid-template-rows property defines the height of each row.
+->The grid-column property defines on which column(s) to place an item.
+->The grid-row property defines on which row to place an item.
+->The grid-area property can be used as a shorthand property for the grid-row-start, grid-column-start, grid-row-end and the grid-column-end properties.
