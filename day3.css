@@ -1,15 +1,14 @@
-<!DOCTYPE html>
-<html lang="en">
-
-<head>
-    <link rel="stylesheet" href="styani1.css">
-    <title>Animations-1</title>
-</head>
-
-<body>
-    <div>
-        <p>hello world</p>
-    </div>
-</body>
-
-</html>
+div{
+    width: 150px;
+    height: 200px;
+    border: 2px black solid;
+    background-color: red;
+    margin: 20px;
+    
+}
+div:hover{
+    transition-property: background-color,color;
+    transition-duration: 4s;
+    background-color: green;
+    color: blue;
+}
