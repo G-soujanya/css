@@ -1,0 +1,19 @@
+img{
+    padding: 100px;
+    transition-duration: 1s;
+    background-color: black;
+}
+img:hover{
+    /*padding-left: 70%;*/
+    /*transform: scale(2); for both x axis and y axis it will be applied*/
+    /*transform: scale(1,3); increase vertically*/
+    /*transform: scale(3,1); increase horizontally*/
+    /*transform: scaleX(5); only for x axis*/
+    /*transform: scaleY(4); only for y axis*/
+    /*transform: rotate(-30deg); rotate anti clock wise*/
+    /*transform: rotate(360deg); rotate clock wise*/
+    /*transform: skew(20deg); horizontally*/
+   /* transform: skew(20deg,30deg); first horizontally second one vertically*/
+  /* transform: skewY(30deg); only vertically*/
+  transform: skewX(10deg);
+}
