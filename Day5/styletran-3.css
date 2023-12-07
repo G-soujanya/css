@@ -1,0 +1,88 @@
+/*.box{
+    background-color: red;
+    border-radius: 50% 50% 50% 5%;
+    margin:100px;
+    width: 150px;
+    height: 150px;
+    transition-duration: 5s;*/
+    /*position: absolute;*/
+/*}
+.box2:hover{
+    background-color: aqua;*/
+   /* transform: rotate(140deg);*/
+   /*transform: rotate(-1turn);*/
+    /*transform: translate(100px,20px); change position*/
+    /*transform: translateY(-90px); moves up*/
+    /*transform: translateX(90px); moves right if positive otherwise left*/
+    /*transform: translate(30px); when position absolute both are one by one using this only one box will move*/
+/*}*/
+/*.box3{
+    background-color: red;
+    width: 200px;
+    height: 200px;
+    margin: 50px;
+    text-align: center;
+    line-height: 200px;
+    transform: 3s;
+}
+.box3:hover{
+    transform: skew(30deg);
+}
+.box3:hover p{
+    transform: skew(-30deg);
+}*/
+/*.b{
+    transition-duration: 3s;
+}
+.item .b{
+    margin: 10px;
+    width: 100px;
+    height: 100px;
+    border-radius: 50% 5% 50% 5%;
+}
+.item:hover .b{
+    margin-left: 700px;
+}
+.item1{
+    background-color: blue;
+    transition-timing-function: ease;
+}
+.item2{
+    background-color:blueviolet;
+    transition-timing-function: ease-in;
+}
+.item3{
+    background-color:brown;
+    transition-timing-function: ease-in-out;
+}
+.item4{
+    background-color:burlywood;
+    transition-timing-function: ease-out;
+}
+.item5{
+    background-color:chartreuse;
+    transition-timing-function: linear;
+}
+*/
+
+.box{
+    background-color: red;
+    width: 100px;
+    height: 100px;
+    border-radius: 50% 5% 50% 5% ;
+    margin: 100px;
+    transition-duration: 3s;
+    /*transform: all 3s; transform property transition duration*/
+}
+.box2:hover{
+    background-color: aqua;
+    transform: rotate(300deg) translate(30px) skew(30deg);
+    /*transform-origin: right top;*/
+    /*transform-origin: left center;*/
+    /*transform-origin: 0%; x-axis starting start rotating*/
+    /*transform-origin:180%;*/
+}
+.box1:hover{
+    background-color: brown;
+    /*transform: skew(30deg) rotate(300deg) translate(30px); even though both have same properties but in different oreder then result may be different*/
+}
