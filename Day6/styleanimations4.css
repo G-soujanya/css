@@ -1,0 +1,49 @@
+/*.items:hover .b{
+    margin-left: 700px;
+}
+.items .b{
+    width: 100px;
+    height: 100px;
+    border-radius: 50px;
+    margin: 20px;
+    transition-duration: 5s;
+}
+.item1{
+    background-color: aqua;
+    transition-timing-function:start;
+}
+.item2{
+    background-color:chartreuse;
+    transition-timing-function: steps(5,jump-start); starting step happen with in no time
+                                                        for remaining four steps 5s split for each 1.25
+}
+.item3{
+    background-color:blue;
+    transition-timing-function:steps(5,jump-end) ;ending step happen with in no time
+                                                        for remaining four steps 5s split for each 1.25
+}
+.item4{
+    background-color: blueviolet;
+    transition-timing-function:steps(5,jump-both) ;ending&starting step happen with in no time 
+                                                        for remaining middle three steps 5s split for each 1.66
+}
+.item5{
+    background-color: brown;
+    transition-timing-function: steps(4,end); reach end after 5s completed
+}*/
+.items .b{
+    width: 100px;
+    height: 100px;
+    border-radius: 50px;
+    margin: 20px;
+    transition-duration: 5s;
+    position: absolute;
+}
+.box1{
+    border: solid black 1px;
+    background-color: aquamarine;
+}
+.box2:hover{
+    background-color: red;
+    transform: matrix(1,0,0,1,30,30);/* scaleX skewY skewX scaleY transitionX transitionY*/
+}
