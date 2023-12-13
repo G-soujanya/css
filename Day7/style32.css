@@ -1,0 +1,33 @@
+body
+{
+    border: 3px black solid;
+    line-height: 1.4;
+}
+.main-header{
+    background-color: rgba(100, 100, 100, 0.5);
+    text-transform: uppercase;
+    text-align: center;
+}
+.header-4{
+    text-transform: uppercase;
+}
+.btn{
+    background-color: black;
+    color: white;
+}
+.btn:hover{
+    background-color: white;
+    color: black;
+}
+.dolar{
+    font-weight: bold;
+}
+.list{
+    list-style: square;
+}
+a:hover{
+    text-decoration: none;
+}
+a{
+    color: black;
+}
