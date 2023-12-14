@@ -1,0 +1,155 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body
+{
+    
+    line-height: 1.4;
+}
+.main-header{
+    background-color: rgba(100, 100, 100, 0.5);
+    text-transform: uppercase;
+    text-align: center;
+    padding: 10px;
+}
+.container
+{
+    border: 3px black solid;
+    width: 825px;
+    margin: 50px auto;
+    position: relative;
+}
+.header-4{
+    text-transform: uppercase;
+    margin: 20px 0 0px 0;
+}
+.btn{
+    background-color: black;
+    color: white;
+    width: 100%;
+    padding: 15px;
+}
+.btn:hover{
+    border-top: 3px black solid;
+    background-color: white;
+    color: black;
+}
+.dolar{
+    font-weight: bold;
+    float: left;
+}
+.list{
+    margin: 15px;
+    list-style: square;
+}
+li{
+    margin: 0 0 20px 0;
+}
+a:hover{
+    text-decoration: none;
+}
+a{
+    color: black;
+    display: inline-block;
+    margin-bottom: 10px;
+}
+.free{
+    color: grey;
+    margin: 0 0 20px 0;
+    /* float: right; */
+}
+.sale{
+    position: absolute;
+    background-color: orangered;
+    color: white;
+    letter-spacing: 2px;
+    width: 50px;
+    height: 50px;
+    top: -20px;
+    left: -30px;
+}
+.boxs div{
+    width: 25px;
+    height: 25px;
+    /* display: inline-block; */
+}
+.boxs{
+    display: flex;
+    /* justify-content: space-between; */
+    gap: 10px;
+    width: 200px;
+}
+.box1{
+    background-color: black;
+}
+.box2{
+    background-color:blue ;
+}
+.box3{
+    background-color: red;
+}
+.box4{
+    background-color: yellow;
+}
+.box5{
+    background-color:green;
+}
+.box6{
+    background-color:rebeccapurple ;
+}
+.container{
+    display: grid;
+    grid-template-columns: 250px 1fr 1fr;
+    gap: 5px;
+}
+.main-header{
+    grid-column: 1/-1;
+}
+.btn{
+    grid-column: 1/-1;
+}
+.middle-con{
+    display: flex;
+    justify-content: space-between;
+}
+/* .container2{
+    display: flex;
+    justify-content: space-between;
+    column-gap: 40px;
+}
+.middle-con{
+    display: flex;
+    justify-content: space-between;
+}
+.middle{
+    flex:1;
+}
+.last{
+    flex:1;
+} */
+/* .i{
+    float: left;
+    width: 300px;
+}
+.i img{
+    width: 100%;
+}
+.middle{
+    float: left;
+    width: 250px;
+    margin-left: 15px;
+    padding: 20px;
+}
+.last{
+    float: right;
+    width: 250px;
+}
+ .clearfix::after{
+    clear: both;
+    content: ' ';
+} 
+.clear{
+    clear: both;
+} */
