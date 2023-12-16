@@ -1,0 +1,56 @@
+.accordion {
+    width: 600px;
+    margin-left: 30px;
+}
+body{
+    margin: 0;
+    padding: 0;
+    line-height: 1;
+}
+.item {
+    display: grid;
+    grid-template-columns: auto 1fr auto;
+    gap: 10px;
+    margin-bottom: 30px;
+    align-items: center;
+}
+
+.number {}
+
+.text {}
+
+.icon {
+    width: 30px;
+    height: 30px;
+}
+ul li{
+    color: grey;
+}
+
+ul {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+.paragraph{
+    line-height: 1.2;
+}
+.hidden-box {
+    grid-column: 2;
+}
+.hidden-box li{
+    margin-left: -23px;
+}
+.hidden-box{
+    display: none;
+}
+.open .hidden-box{
+    display: block;
+}
+.open .text,.open .number,.open .icon{
+    color: green;
+}
+.open{
+    border-top: green solid;
+    box-shadow: 0 0 32px rgba(0, 0, 0, 0.1);
+}
