@@ -1,0 +1,84 @@
+/* .box{
+    background-color: skyblue;
+    border: 1px solid gray;
+    border-radius: 5px;
+    box-sizing: border-box;
+    width: 200px;
+    height: 200px;
+    padding: 20px;
+    text-align: center;
+    position: absolute;
+    left: 100px;
+    top: 100px;
+    transform: perspective(3px) rotateY(30deg);
+} */
+.group{
+    text-align: center;
+}
+.orig{
+    width: 180px;
+    height: 180px;
+    display: inline-block;
+    margin: 10px 15px 20px 15px;
+    background-color: #f5f5f5;
+    border: 1px #aaa solid;
+    border-radius: 5px;
+    box-shadow: 0px 3px 6px rgba(0,0,0,0.5);
+    /* perspective: 200px; */
+}
+.box{
+    background-color: rgba(0,221,244,.6);
+    border: 1px #3cf solid;
+    border-radius: 5px;
+    box-sizing: border-box;
+    width: 180px;
+    height: 180px;
+    padding: 20px;
+    text-align: center;
+    /* animation: myAnimation 2s ease-in-out 0s infinite; */
+    /* transform: rotateX(45deg); */
+}
+/* .group .box{
+    transform: perspective(200px) rotateX(45deg);
+} */
+/* .b1{
+    perspective-origin: 0 0;
+}
+.b2{
+    perspective-origin: 75% 75%;
+}
+.b3{
+    perspective-origin: 30px 40px;
+} */
+/* .b1{
+    transform: perspective(200px) scaleZ(2) rotateX(45deg);
+}
+.b2{
+    transform: perspective(200px) scaleZ(1) rotateX(45deg);
+}
+.b3{
+    transform: perspective(200px) scaleZ(.25) rotateX(45deg);
+} */
+.group .box{
+    background-color: rgba(108,245,179,.6);
+    border: 1pz #6cf5b3 solid;
+}
+.b1{
+    transform: perspective(200px) translateZ(50px);
+}
+.b2{
+    transform: perspective(200px) translateZ(-50px);
+}
+.b3{
+    transform: translateZ(50px);
+}
+@keyframes myAnimation{
+    from{
+        height: 50px;
+        background: yellow;
+    }
+    to{
+        height: 350px;
+        background: green;
+    }
+ }
