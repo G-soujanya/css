@@ -1,0 +1,71 @@
+body{
+    font-family: sans-serif;
+    padding: 50px;
+    margin: 100px auto;
+}
+.wrap{
+    display: block;
+    margin-bottom: 75px;
+}
+.sphere{
+    border-radius: 50%;
+    width: 25px;
+    height: 25px;
+    margin: 10px;
+    transition: margin 2s;
+    background-color: #3cf;
+    position: relative;
+    animation-name:slide;
+    /* animation-name: colorChange; */
+    animation-duration: 2.5s;
+    background-color: #3cf;
+    animation-delay: 1s;
+    /* animation-fill-mode: forwards; */
+}
+.sphere:hover{
+    animation-play-state: paused;
+}
+/* .s1{
+    background-color: red;
+    animation-timing-function: ease;
+    animation-timing-function: step-start;
+}
+.s2{
+    background-color: gray;
+    animation-timing-function: ease-in;
+    animation-timing-function: steps(4,start);
+}
+.s3{
+    background-color: green;
+    animation-timing-function: ease-/out;
+    animation-timing-function: steps(4,end);
+}
+.s4{
+    background-color: crimson;
+    animation-timing-function: ease-in-out;
+}
+.s5{
+    background-color: aqua;
+    animation-timing-function: linear;
+}
+.s6{
+    background-color: black;
+    animation-timing-function: cubic-bezier(0.075, 0.82, 0.165, 1);
+} */
+@keyframes slide{
+    from{
+        left: 0;
+    }
+    to{
+        left: 400px;
+        transform: scale(2);
+        opacity: .5;
+    }
+}
+/* @keyframes colorChange{
+    to{
+        background-color: #f4e338;
+        transform: scale(2);
+        opacity: .5;
+    }
+} */
