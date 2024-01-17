@@ -1,0 +1,44 @@
+ul{
+    margin: 0;
+    padding: 0;
+    position: relative;
+}
+.imgGallery li{
+    width: 700px;
+    height: 412px;
+    position: relative;
+    list-style: none;
+    overflow: hidden;
+    margin: 20px;
+}
+.tooltip{
+    position: absolute;
+    bottom: 40px;
+    left: 0;
+    background-color: rgba(255,255,255,.8);
+    border-radius: 0 15px 15px 0;
+    box-shadow: 3px 3px 4px 1px rgba(0,0,0,.4);
+    color: #6cf;
+    padding: 5px 30px;
+    display: none;
+    max-width: 75%
+}
+.tooltip h1{
+    line-height: 1;
+    padding: 5px 30px;
+}
+.imgGallery li:hover .tooltip{
+    animation: tooltip 1.5s forwards;
+    display: block;
+}
+.tooltip p{
+    padding: 0 30px 5px ;
+}
+@keyframes tooltip{
+    0%{
+        transform: translateX(-400px);
+    }
+    100%{
+        transform: translateX(0);
+    }
+}
